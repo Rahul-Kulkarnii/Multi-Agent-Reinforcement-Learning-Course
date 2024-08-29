@@ -65,4 +65,22 @@ Similar to Value Iteration, the algorithm converged at γ (gamma) = 0.9.
 Both Value Iteration and Policy Iteration methods identified that the optimal policy at each state (Hostel, Academic Building, and Canteen) is to **Attend Classes**. The MDP model effectively demonstrates the process of finding the optimal policy in a controlled environment.
 
 # Question 2
+## Value Iteration
+The Results obtain from value iteration as quiver diagram:
+Where ever the value of a state is zero, there is a blockade or obstacle/wall in the gridworld environment
+The algorithm converged at γ (gamma) = 0.9.
+![image](https://github.com/user-attachments/assets/6ff6b984-4aa0-4d04-a914-1e73a51b2716)
 
+## Policy Iteration
+The Results obtain from Policy iteration as quiver diagram:
+Where ever the value of a state is zero, there is a blockade or obstacle/wall in the gridworld environment
+The algorithm converged at γ (gamma) = 0.9.
+
+The action set is (UP, DOWN, RIGHT, LEFT) - also represented by (U,D,R,L) in the quiver plot
+![image](https://github.com/user-attachments/assets/d494977d-494c-4f5c-b887-bd0c91fe2a31)
+
+
+## Conclusion
+
+Both Value Iteration and Policy Iteration methods were used to find out optimal policy at each state of the gridworld and help navigate the robot to it destination. The Results of both value iterations and Policy iterations were similar and gave optimal policy and it converged at gamma = 0.9. It was visualized using quiver plot.
+The MDP model effectively demonstrates the process of finding the optimal policy in a controlled environment.
